@@ -66,3 +66,7 @@ docs
 
 test-output
 tests
+
+.vscode/
+.trae/
+.idea/
