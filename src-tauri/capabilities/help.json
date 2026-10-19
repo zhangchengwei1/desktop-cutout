@@ -1,0 +1,17 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "help",
+  "description": "辅助窗口使用独立权限，不访问图片工作区。",
+  "windows": [
+    "help",
+    "about"
+  ],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "allow-preferences-snapshot",
+    "allow-open-utility-window",
+    "allow-set-menu-language",
+    "allow-runtime-info"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "ui": {
+    "settings": "设置…",
+    "resources": "模型与资源",
+    "help": "帮助",
+    "about": "关于 ClearFrame",
+    "edit": "编辑",
+    "previewMenu": "应用菜单（浏览器预览）",
+    "language": "界面语言",
+    "naming": "导出文件名",
+    "completion": "右键处理结果",
+    "workspace": "工作区",
+    "system": "跟随系统",
+    "progress": "显示轻量进度",
+    "openFolder": "打开结果文件夹",
+    "silent": "静默保存",
+    "actions": {
+      "import": "导入图片…",
+      "export": "导出 PNG…",
+      "automatic": "自动抠图",
+      "toggleOriginal": "切换原图 / 结果",
+      "workbench": "工作台",
+      "batch": "批量任务"
+    }
+  }
+}

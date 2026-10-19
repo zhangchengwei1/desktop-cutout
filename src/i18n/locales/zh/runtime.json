@@ -1,0 +1,22 @@
+{
+  "ui": {
+    "copy": {
+      "title": "应用状态",
+      "loading": "正在连接本地处理核心…",
+      "browser": "浏览器预览",
+      "browserHelp": "可浏览页面；导入、处理与保存请在桌面应用中使用。",
+      "connected": "本地核心已连接",
+      "core": "核心版本",
+      "inference": "推理会话",
+      "ready": "已就绪",
+      "missing": "尚未就绪",
+      "error": "本地核心连接失败",
+      "errorHelp": "请重新连接，或重新打开桌面应用。",
+      "retry": "重新连接",
+      "pageLoading": "正在加载页面…",
+      "pageError": "页面未能加载",
+      "pageErrorHelp": "请重新加载此窗口后再试。",
+      "reloadWindow": "重新加载窗口"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ui": {
+    "title": "后台抠图",
+    "background": "正在本机后台处理。",
+    "saved": "已保存的图片保留在结果目录中。",
+    "phases": {
+      "queued": "等待处理",
+      "preparing": "准备图片",
+      "processing": "正在抠图",
+      "done": "图片处理完成",
+      "failed": "部分图片需要处理",
+      "cancelled": "处理已取消",
+      "cancelling": "正在取消剩余任务"
+    },
+    "operation": "处理任务",
+    "progress": "图片处理进度",
+    "counts": "已保存 {{succeeded}} · 失败 {{failed}} · 取消 {{cancelled}} / 共 {{count}} 张",
+    "preparing": "正在检查所选图片和已缓存的模型…",
+    "failure": "已保存结果会保留。可重试失败图片，或打开 ClearFrame 准备模型、查看详情。",
+    "empty": "暂无右键处理任务。",
+    "loading": "正在加载进度…",
+    "openFolder": "打开结果目录",
+    "details": "技术详情",
+    "retry": "重试失败图片",
+    "cancel": "取消剩余任务",
+    "workbench": "打开 ClearFrame",
+    "closeHint": "关闭此窗口只隐藏提示，后台处理仍会继续。",
+    "sourceChanged": "原始图片已改动。请重新发起右键处理，或在 ClearFrame 中重新导入。此前保存的结果会保留。"
+  }
+}

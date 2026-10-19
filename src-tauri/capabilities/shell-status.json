@@ -1,0 +1,15 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "shell-status",
+  "description": "右键任务小窗口只访问任务摘要、重试、取消及已登记结果路径。",
+  "windows": [
+    "shell-status"
+  ],
+  "permissions": [
+    "allow-shell-snapshot",
+    "allow-shell-cancel",
+    "allow-shell-retry",
+    "allow-shell-open-result",
+    "allow-shell-open-workbench"
+  ]
+}

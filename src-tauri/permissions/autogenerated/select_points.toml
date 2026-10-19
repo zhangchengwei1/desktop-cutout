@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-select-points"
+description = "Enables the select_points command without any pre-configured scope."
+commands.allow = ["select_points"]
+
+[[permission]]
+identifier = "deny-select-points"
+description = "Denies the select_points command without any pre-configured scope."
+commands.deny = ["select_points"]

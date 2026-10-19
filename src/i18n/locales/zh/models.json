@@ -1,0 +1,49 @@
+{
+  "ui": {
+    "detailsCopy": {
+      "details": "来源与许可",
+      "revision": "固定版本",
+      "integrity": "SHA-256",
+      "environment": "已验证环境",
+      "open": "打开许可说明",
+      "cache": "已验证模型占用",
+      "session": "会话就绪",
+      "quality": "固定 FP32 模型；CPU 回退保留相同权重与输入尺寸。",
+      "clear": "确认清理",
+      "cancel": "保留缓存"
+    },
+    "copy": {
+      "names": {
+        "isnet-auto-high": "IS-Net",
+        "mobilesam-image-encoder": "MobileSAM 编码器",
+        "mobilesam-mask-decoder": "MobileSAM 解码器",
+        "vitmatte-high": "ViTMatte FP32"
+      },
+      "states": {
+        "missing": "未安装",
+        "queued": "等待下载",
+        "downloading": "下载中",
+        "verifying": "校验中",
+        "cancel_requested": "正在取消",
+        "cancelled": "已取消",
+        "file_verified": "文件已验证",
+        "session_ready": "推理会话就绪",
+        "failed": "失败"
+      },
+      "groups": {
+        "automatic": "自动抠图",
+        "selection": "点选抠图",
+        "matting": "边缘精修"
+      },
+      "featureReady": "文件齐备",
+      "featureMissing": "待准备",
+      "title": "模型与资源",
+      "hint": "启动时自动下载缺失模型；文件验证通过后会在使用时加载推理会话。",
+      "count": "项功能文件齐备",
+      "download": "下载模型",
+      "cancel": "取消",
+      "clear": "清理缓存",
+      "progress": "获取进度"
+    }
+  }
+}

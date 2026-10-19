@@ -1,0 +1,11 @@
+{
+  "title": "ClearFrame の右クリック操作",
+  "body": "Finder に単一画像と一括の背景削除を追加します。画像はこの Mac 内で処理します。単一画像の結果は元画像の横、一括処理の結果は新しい ClearFrame Cutouts フォルダーに保存します。既存ファイルは保持します。ClearFrame Desktop で IS-Net モデルを準備してください。",
+  "checkbox": "Finder の右クリック背景削除を有効にする",
+  "continue": "選択を確定",
+  "cancel": "後で決める",
+  "error": "Finder の操作を更新できません",
+  "single": "ClearFrame — 背景を削除",
+  "batch": "ClearFrame — 背景を一括削除",
+  "failure": "ClearFrame は処理を完了できませんでした。保存済みの画像は残ります。一括処理の詳細は結果フォルダーの ClearFrame Report.json を確認してください。"
+}

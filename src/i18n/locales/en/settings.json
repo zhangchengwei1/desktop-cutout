@@ -1,0 +1,48 @@
+{
+  "ui": {
+    "copy": {
+      "title": "Settings",
+      "intro": "Choices are stored on this device and shared across windows.",
+      "language": "Interface language",
+      "languageHelp": "Applies to every window after switching.",
+      "system": "Follow system",
+      "naming": "Export filename",
+      "namingHelp": "Changes the suggested name in the save dialog only.",
+      "recovery": "Restore workspace on restart",
+      "recoveryHelp": "Off by default. Saves private copies of images, masks and committed edits on this device; turning it off removes them.",
+      "usage": "Session file size",
+      "clear": "Clear session copies",
+      "back": "Back to workspace",
+      "unavailable": "Settings can only be saved in the desktop app.",
+      "loading": "Loading settings…",
+      "shellCompletion": "Right-click processing",
+      "shellCompletionHelp": "After processing: choose how to view results. Errors always provide a recovery prompt.",
+      "shellProgress": "Show compact progress (default)",
+      "shellOpenFolder": "Open result folder on completion",
+      "shellSilent": "Save quietly; show errors only",
+      "shellMenus": "Right-click actions",
+      "shellMenusHelp": "Requires confirmation. macOS can enable or remove Finder actions here; Windows uses the installer checkbox.",
+      "shellManage": "Manage actions",
+      "shellInstallerHelp": "Run the Windows installer again and confirm the right-click checkbox, or clear it to disable the actions."
+    },
+    "extra": {
+      "general": "General",
+      "storage": "Session & storage",
+      "privacy": "Processing & privacy",
+      "retry": "Reload settings",
+      "models": "Manage models & resources",
+      "privacyBody": "Images, filenames, paths, masks and edits stay on this device. Network access is used for declared model downloads and license links you open.",
+      "quality": "Processing quality",
+      "qualityBody": "Uses pinned IS-Net, MobileSAM and ViTMatte FP32. CPU fallback keeps the same weights and input size.",
+      "format": "Export format",
+      "formatHelp": "Transparent PNG at original dimensions; inference uses the model input size.",
+      "copies": "Session copies",
+      "clearHelp": "Only clears session copies in the app’s private folder. Exported PNGs and cached models stay in place.",
+      "saving": "Saving…",
+      "preview": "Settings are read-only in browser preview.",
+      "confirmClear": "Confirm clearing copies",
+      "cancel": "Cancel",
+      "shortcuts": "Keyboard shortcuts"
+    }
+  }
+}

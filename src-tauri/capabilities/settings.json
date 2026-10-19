@@ -1,0 +1,21 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "settings",
+  "description": "设置窗口只能读取和修改偏好设置。",
+  "windows": [
+    "settings"
+  ],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "allow-preferences-snapshot",
+    "allow-update-preferences",
+    "allow-recovery-status",
+    "allow-set-session-recovery",
+    "allow-clear-session-data",
+    "allow-configure-context-menu",
+    "allow-open-utility-window",
+    "allow-set-menu-language",
+    "allow-set-shortcut-recording"
+  ]
+}

@@ -1,0 +1,20 @@
+#include <windows.h>
+#pragma code_page(65001)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+  101 "Remove background from this image"
+  102 "Batch remove backgrounds"
+END
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+  101 "单图抠图"
+  102 "批量抠图"
+END
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+STRINGTABLE
+BEGIN
+  101 "背景を削除"
+  102 "背景を一括削除"
+END

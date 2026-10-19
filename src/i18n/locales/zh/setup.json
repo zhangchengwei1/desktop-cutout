@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "copy": {
+      "title": "正在准备本地模型",
+      "checking": "正在检查本地模型…",
+      "downloading": "正在下载",
+      "verifying": "正在校验",
+      "ready": "准备完成",
+      "failed": "模型准备未完成",
+      "retry": "重试下载",
+      "resources": "查看模型与资源",
+      "detail": "模型仅保存在本机；下载完成并校验后即可使用。",
+      "progress": "模型下载进度"
+    }
+  }
+}

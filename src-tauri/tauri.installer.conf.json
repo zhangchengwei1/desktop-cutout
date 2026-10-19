@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "bundle": {
+    "active": true,
+    "category": "Photography",
+    "shortDescription": "Local image background removal",
+    "longDescription": "ClearFrame Desktop processes images locally with high-quality models, batch export and mask editing.",
+    "resources": {
+      "../resources/runtime/notices/": "runtime/notices/",
+      "../resources/runtime/runtime.json": "runtime/runtime.json"
+    }
+  }
+}

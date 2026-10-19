@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-auto-cutout"
+description = "Enables the auto_cutout command without any pre-configured scope."
+commands.allow = ["auto_cutout"]
+
+[[permission]]
+identifier = "deny-auto-cutout"
+description = "Denies the auto_cutout command without any pre-configured scope."
+commands.deny = ["auto_cutout"]

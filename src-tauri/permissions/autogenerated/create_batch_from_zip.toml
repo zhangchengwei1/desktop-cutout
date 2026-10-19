@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-create-batch-from-zip"
+description = "Enables the create_batch_from_zip command without any pre-configured scope."
+commands.allow = ["create_batch_from_zip"]
+
+[[permission]]
+identifier = "deny-create-batch-from-zip"
+description = "Denies the create_batch_from_zip command without any pre-configured scope."
+commands.deny = ["create_batch_from_zip"]

@@ -1,0 +1,10 @@
+{
+  "import": "CmdOrCtrl+O",
+  "export": "CmdOrCtrl+Shift+E",
+  "automatic": "CmdOrCtrl+Shift+R",
+  "toggleOriginal": "CmdOrCtrl+Shift+P",
+  "workbench": "CmdOrCtrl+1",
+  "batch": "CmdOrCtrl+2",
+  "settings": "CmdOrCtrl+,",
+  "help": "F1"
+}

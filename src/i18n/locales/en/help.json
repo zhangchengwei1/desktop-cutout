@@ -1,0 +1,70 @@
+{
+  "ui": {
+    "extra": {
+      "import": "Import images",
+      "export": "Export PNG",
+      "troubleshoot": "Troubleshooting",
+      "faults": [
+        {
+          "title": "Download failed or offline",
+          "body": "Open Models & resources to review errors and retry. Verified models work offline; active downloads can be cancelled."
+        },
+        {
+          "title": "Image or preview failed",
+          "body": "Choose Retry in the canvas. If it still fails, check that the file is intact and its format is supported, or import it again."
+        },
+        {
+          "title": "Batch jobs stopped",
+          "body": "Check whether the batch is paused. Filter Failed & cancelled to review and retry. Reviewing an original keeps the batch and exports."
+        },
+        {
+          "title": "Cannot save a result",
+          "body": "Choose a writable local destination and check free disk space. Existing originals and results are kept."
+        }
+      ],
+      "updates": "Version updates",
+      "updatesBody": "This development build does not include automatic updates. Distribution and signing validation are tracked in the project docs.",
+      "keyboardSelection": "Selection supports the keyboard: focus the canvas, move with arrow keys, and press Enter to add a point. Hold Shift to move faster.",
+      "inputFormats": "Inputs: PNG, JPEG, WebP, GIF, BMP, TIFF, ICO, TGA, DDS, PNM, QOI and Farbfeld. GIF uses the first frame, TIFF the first page and ICO the preferred icon. 16-bit integer channels are converted to 8-bit sRGB. Animated PNG/WebP, HEIC, AVIF, RAW, HDR and SVG are not supported. Results are PNG."
+    },
+    "copy": {
+      "title": "Help & about",
+      "guide": "Guide",
+      "about": "About",
+      "intro": "From import to export, image processing stays on this device.",
+      "steps": [
+        {
+          "title": "Import images",
+          "body": "Choose an image in the workspace, drop one into the window, or paste one from the clipboard."
+        },
+        {
+          "title": "Choose a cutout method",
+          "body": "Automatic uses IS-Net. Selection lets you add subject and background points. The desktop app prepares the models at startup."
+        },
+        {
+          "title": "Review and touch up",
+          "body": "Switch between original and result. After processing, refine edges, keep or erase areas with the brush, and choose a transparent, solid, or local image background."
+        },
+        {
+          "title": "Save results",
+          "body": "Export a single PNG, or use Batch jobs to save PNGs and start a ZIP export while processing continues."
+        }
+      ],
+      "shortcuts": "Shortcuts",
+      "action": "Action",
+      "keys": "Keys",
+      "paste": "Paste image",
+      "undo": "Undo",
+      "redo": "Redo",
+      "settings": "Open settings",
+      "version": "App version",
+      "core": "Local core version",
+      "unavailable": "Not connected",
+      "privacy": "Local processing",
+      "privacyBody": "Originals, masks and exports stay on this device. The desktop app downloads missing models at startup.",
+      "licenses": "Models & licenses",
+      "licensesBody": "See each model’s size, license and download state in Models & resources.",
+      "openModels": "Open Models & resources"
+    }
+  }
+}

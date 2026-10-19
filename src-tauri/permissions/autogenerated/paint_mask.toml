@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-paint-mask"
+description = "Enables the paint_mask command without any pre-configured scope."
+commands.allow = ["paint_mask"]
+
+[[permission]]
+identifier = "deny-paint-mask"
+description = "Denies the paint_mask command without any pre-configured scope."
+commands.deny = ["paint_mask"]

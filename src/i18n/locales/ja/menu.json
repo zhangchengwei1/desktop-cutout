@@ -1,0 +1,26 @@
+{
+  "ui": {
+    "settings": "設定…",
+    "resources": "モデルとリソース",
+    "help": "ヘルプ",
+    "about": "ClearFrame について",
+    "edit": "編集",
+    "previewMenu": "アプリメニュー（ブラウザープレビュー）",
+    "language": "言語",
+    "naming": "書き出しファイル名",
+    "completion": "右クリック処理の結果",
+    "workspace": "ワークスペース",
+    "system": "システムに従う",
+    "progress": "簡易進捗を表示",
+    "openFolder": "結果フォルダーを開く",
+    "silent": "静かに保存",
+    "actions": {
+      "import": "画像を読み込む…",
+      "export": "PNG を書き出す…",
+      "automatic": "自動背景削除",
+      "toggleOriginal": "元画像 / 結果を切り替え",
+      "workbench": "ワークスペース",
+      "batch": "一括処理"
+    }
+  }
+}

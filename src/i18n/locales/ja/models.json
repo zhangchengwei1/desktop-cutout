@@ -1,0 +1,49 @@
+{
+  "ui": {
+    "detailsCopy": {
+      "details": "配布元とライセンス",
+      "revision": "固定バージョン",
+      "integrity": "SHA-256",
+      "environment": "検証済み環境",
+      "open": "ライセンスの説明を開く",
+      "cache": "検証済みモデルの容量",
+      "session": "セッション準備完了",
+      "quality": "固定 FP32 モデル。CPU に切り替えても重みと入力サイズを維持。",
+      "clear": "削除を確認",
+      "cancel": "キャッシュを保持"
+    },
+    "copy": {
+      "names": {
+        "isnet-auto-high": "IS-Net",
+        "mobilesam-image-encoder": "MobileSAM エンコーダー",
+        "mobilesam-mask-decoder": "MobileSAM デコーダー",
+        "vitmatte-high": "ViTMatte FP32"
+      },
+      "states": {
+        "missing": "未インストール",
+        "queued": "待機中",
+        "downloading": "ダウンロード中",
+        "verifying": "検証中",
+        "cancel_requested": "キャンセル中",
+        "cancelled": "キャンセル済み",
+        "file_verified": "ファイル検証済み",
+        "session_ready": "セッション準備完了",
+        "failed": "失敗"
+      },
+      "groups": {
+        "automatic": "自動切り抜き",
+        "selection": "点で選択",
+        "matting": "輪郭の精修"
+      },
+      "featureReady": "ファイル準備完了",
+      "featureMissing": "準備が必要",
+      "title": "モデルとリソース",
+      "hint": "起動時に不足しているモデルをダウンロードします。検証済みファイルは使用時に推論セッションへ読み込みます。",
+      "count": "機能のファイル準備完了",
+      "download": "モデルをダウンロード",
+      "cancel": "キャンセル",
+      "clear": "キャッシュを削除",
+      "progress": "ダウンロード進捗"
+    }
+  }
+}

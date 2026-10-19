@@ -1,0 +1,11 @@
+{
+  "title": "ClearFrame right-click actions",
+  "body": "Add single-image and batch background removal to Finder. Images stay on this Mac. Single results are saved beside the source; batch results go into a new ClearFrame Cutouts folder. Existing files are kept. Requires the IS-Net model prepared in ClearFrame Desktop.",
+  "checkbox": "Enable Finder right-click background removal",
+  "continue": "Confirm choice",
+  "cancel": "Decide later",
+  "error": "Could not update Finder actions",
+  "single": "ClearFrame — Remove Background",
+  "batch": "ClearFrame — Batch Remove Background",
+  "failure": "ClearFrame could not finish this operation. Saved images are kept. For batch jobs, see ClearFrame Report.json in the result folder."
+}

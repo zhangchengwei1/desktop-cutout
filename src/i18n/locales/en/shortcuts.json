@@ -1,0 +1,24 @@
+{
+  "ui": {
+    "title": "Keyboard shortcuts",
+    "help": "Click a shortcut, then press a new combination. Changes apply immediately in every window.",
+    "recording": "Press keys…",
+    "unassigned": "Not assigned",
+    "disable": "Disable",
+    "reset": "Restore defaults",
+    "recordHelp": "Press Esc to cancel, or Tab to move on. Standard copy, paste, undo and redo keep their system shortcuts.",
+    "invalid": "Use Ctrl/Command or Alt with a letter, number or function key.",
+    "conflict": "This combination is assigned to another action. Disable or change that action first.",
+    "reserved": "This combination is reserved for system or text editing.",
+    "actions": {
+      "import": "Import images…",
+      "export": "Export PNG…",
+      "automatic": "Automatic cutout",
+      "toggleOriginal": "Show original / result",
+      "workbench": "Workbench",
+      "batch": "Batch tasks",
+      "settings": "Settings",
+      "help": "Help"
+    }
+  }
+}

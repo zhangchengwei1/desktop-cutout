@@ -1,0 +1,11 @@
+{
+  "title": "ClearFrame 右键操作",
+  "body": "向 Finder 添加单图和批量抠图。图片仅在本机处理。单图结果保存在原图旁；批量结果保存在新建的 ClearFrame Cutouts 文件夹中。已有文件不会覆盖。需要先在 ClearFrame Desktop 中准备好 IS-Net 模型。",
+  "checkbox": "启用 Finder 右键单图与批量抠图",
+  "continue": "确认选择",
+  "cancel": "稍后决定",
+  "error": "无法更新 Finder 右键操作",
+  "single": "ClearFrame — 单图抠图",
+  "batch": "ClearFrame — 批量抠图",
+  "failure": "ClearFrame 未能完成此次处理，已保存的图片会保留。批量任务的失败详情可在结果文件夹中的 ClearFrame Report.json 查看。"
+}

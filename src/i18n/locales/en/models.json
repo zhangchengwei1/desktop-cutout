@@ -1,0 +1,49 @@
+{
+  "ui": {
+    "detailsCopy": {
+      "details": "Source & license",
+      "revision": "Pinned revision",
+      "integrity": "SHA-256",
+      "environment": "Verified environment",
+      "open": "Open license details",
+      "cache": "Verified model storage",
+      "session": "Session ready",
+      "quality": "Pinned FP32 models. CPU fallback keeps the same weights and input size.",
+      "clear": "Confirm clearing",
+      "cancel": "Keep cache"
+    },
+    "copy": {
+      "names": {
+        "isnet-auto-high": "IS-Net",
+        "mobilesam-image-encoder": "MobileSAM encoder",
+        "mobilesam-mask-decoder": "MobileSAM decoder",
+        "vitmatte-high": "ViTMatte FP32"
+      },
+      "states": {
+        "missing": "Not installed",
+        "queued": "Queued",
+        "downloading": "Downloading",
+        "verifying": "Verifying",
+        "cancel_requested": "Cancelling",
+        "cancelled": "Cancelled",
+        "file_verified": "File verified",
+        "session_ready": "Session ready",
+        "failed": "Failed"
+      },
+      "groups": {
+        "automatic": "Automatic cutout",
+        "selection": "Point selection",
+        "matting": "Edge refinement"
+      },
+      "featureReady": "Files ready",
+      "featureMissing": "Needs setup",
+      "title": "Models & resources",
+      "hint": "Missing models download at startup. Verified files load an inference session when used.",
+      "count": "features have files ready",
+      "download": "Download model",
+      "cancel": "Cancel",
+      "clear": "Clear cache",
+      "progress": "download progress"
+    }
+  }
+}

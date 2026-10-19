@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-append-batch-zip"
+description = "Enables the append_batch_zip command without any pre-configured scope."
+commands.allow = ["append_batch_zip"]
+
+[[permission]]
+identifier = "deny-append-batch-zip"
+description = "Denies the append_batch_zip command without any pre-configured scope."
+commands.deny = ["append_batch_zip"]

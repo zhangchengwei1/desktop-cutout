@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-append-batch"
+description = "Enables the append_batch command without any pre-configured scope."
+commands.allow = ["append_batch"]
+
+[[permission]]
+identifier = "deny-append-batch"
+description = "Denies the append_batch command without any pre-configured scope."
+commands.deny = ["append_batch"]

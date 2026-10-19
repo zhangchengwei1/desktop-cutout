@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-batch-result-preview-url"
+description = "Enables the batch_result_preview_url command without any pre-configured scope."
+commands.allow = ["batch_result_preview_url"]
+
+[[permission]]
+identifier = "deny-batch-result-preview-url"
+description = "Denies the batch_result_preview_url command without any pre-configured scope."
+commands.deny = ["batch_result_preview_url"]

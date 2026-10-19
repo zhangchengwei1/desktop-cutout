@@ -1,0 +1,24 @@
+{
+  "ui": {
+    "title": "快捷键",
+    "help": "点击快捷键后按下新组合键。保存后立即应用到所有窗口。",
+    "recording": "请按组合键…",
+    "unassigned": "未分配",
+    "disable": "禁用",
+    "reset": "恢复默认快捷键",
+    "recordHelp": "按 Esc 取消，Tab 移到下一项。复制、粘贴、撤销和重做沿用系统快捷键。",
+    "invalid": "请使用 Ctrl/Command 或 Alt 搭配字母、数字或功能键。",
+    "conflict": "此组合键已分配给其他操作，请先修改或禁用该操作。",
+    "reserved": "此组合键保留给系统或文本编辑操作。",
+    "actions": {
+      "import": "导入图片…",
+      "export": "导出 PNG…",
+      "automatic": "自动抠图",
+      "toggleOriginal": "切换原图 / 结果",
+      "workbench": "工作台",
+      "batch": "批量任务",
+      "settings": "设置",
+      "help": "帮助"
+    }
+  }
+}

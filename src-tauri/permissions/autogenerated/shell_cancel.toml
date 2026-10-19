@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-shell-cancel"
+description = "Enables the shell_cancel command without any pre-configured scope."
+commands.allow = ["shell_cancel"]
+
+[[permission]]
+identifier = "deny-shell-cancel"
+description = "Denies the shell_cancel command without any pre-configured scope."
+commands.deny = ["shell_cancel"]

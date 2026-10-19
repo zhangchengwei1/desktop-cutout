@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-append-batch-folder"
+description = "Enables the append_batch_folder command without any pre-configured scope."
+commands.allow = ["append_batch_folder"]
+
+[[permission]]
+identifier = "deny-append-batch-folder"
+description = "Denies the append_batch_folder command without any pre-configured scope."
+commands.deny = ["append_batch_folder"]

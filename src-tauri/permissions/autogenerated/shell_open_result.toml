@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-shell-open-result"
+description = "Enables the shell_open_result command without any pre-configured scope."
+commands.allow = ["shell_open_result"]
+
+[[permission]]
+identifier = "deny-shell-open-result"
+description = "Denies the shell_open_result command without any pre-configured scope."
+commands.deny = ["shell_open_result"]

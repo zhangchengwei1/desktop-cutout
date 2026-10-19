@@ -1,0 +1,26 @@
+{
+  "ui": {
+    "settings": "Settings…",
+    "resources": "Models & resources",
+    "help": "Help",
+    "about": "About ClearFrame",
+    "edit": "Edit",
+    "previewMenu": "Application menu (browser preview)",
+    "language": "Language",
+    "naming": "Export filename",
+    "completion": "Right-click results",
+    "workspace": "Workspace",
+    "system": "Follow system",
+    "progress": "Show compact progress",
+    "openFolder": "Open result folder",
+    "silent": "Save quietly",
+    "actions": {
+      "import": "Import images…",
+      "export": "Export PNG…",
+      "automatic": "Automatic cutout",
+      "toggleOriginal": "Show original / result",
+      "workbench": "Workbench",
+      "batch": "Batch tasks"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-create-batch"
+description = "Enables the create_batch command without any pre-configured scope."
+commands.allow = ["create_batch"]
+
+[[permission]]
+identifier = "deny-create-batch"
+description = "Denies the create_batch command without any pre-configured scope."
+commands.deny = ["create_batch"]

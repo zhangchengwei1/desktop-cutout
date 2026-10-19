@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-shell-snapshot"
+description = "Enables the shell_snapshot command without any pre-configured scope."
+commands.allow = ["shell_snapshot"]
+
+[[permission]]
+identifier = "deny-shell-snapshot"
+description = "Denies the shell_snapshot command without any pre-configured scope."
+commands.deny = ["shell_snapshot"]

@@ -1,0 +1,22 @@
+{
+  "ui": {
+    "copy": {
+      "title": "App status",
+      "loading": "Connecting to the local core…",
+      "browser": "Browser preview",
+      "browserHelp": "Browse the pages here. Import, processing and saving require the desktop app.",
+      "connected": "Local core connected",
+      "core": "Core version",
+      "inference": "Inference session",
+      "ready": "Ready",
+      "missing": "Not ready yet",
+      "error": "Could not connect to the local core",
+      "errorHelp": "Try connecting again or reopen the desktop app.",
+      "retry": "Reconnect",
+      "pageLoading": "Loading page…",
+      "pageError": "This page could not be loaded",
+      "pageErrorHelp": "Reload this window and try again.",
+      "reloadWindow": "Reload window"
+    }
+  }
+}

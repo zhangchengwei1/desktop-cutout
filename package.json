@@ -1,0 +1,50 @@
+{
+  "name": "silta-clearframe-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "npm run typecheck && npm run build",
+    "test:contracts": "node tests/contracts/native-commands.mjs",
+    "test:i18n": "node --test tests/i18n/resources.test.mjs",
+    "baseline:verify": "python3 tests/fixtures/verify.py",
+    "baseline:isnet": "node --max-old-space-size=4096 tests/fixtures/capture-isnet-reference.mjs",
+    "baseline:s04:model": "node --max-old-space-size=4096 tests/fixtures/capture-s04-model-reference.mjs",
+    "baseline:s08:sam": "node --max-old-space-size=4096 tests/fixtures/capture-s08-sam-reference.mjs",
+    "tauri": "tauri",
+    "desktop:dev": "tauri dev",
+    "desktop:build": "npm run typecheck && tauri build --no-bundle",
+    "installer:prepare": "node tools/prepare-runtime.mjs",
+    "desktop:installer": "node tools/build-installer.mjs",
+    "test:installer": "node --test tests/installer/runtime.test.mjs tests/installer/context-menu.test.mjs",
+    "test:gpu:windows": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/verify-windows-gpu.ps1",
+    "test:shared": "node --experimental-strip-types --test tests/shared/*.test.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.2.0",
+    "@tauri-apps/api": "2.11.1",
+    "@tauri-apps/plugin-dialog": "^2.7.3",
+    "i18next": "^26.4.2",
+    "i18next-resources-to-backend": "^1.2.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-i18next": "^17.0.16"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.11.5",
+    "@types/node": "^24.10.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "onnxruntime-web": "1.29.0",
+    "typescript": "6.0.3",
+    "vite": "8.3.0"
+  }
+}

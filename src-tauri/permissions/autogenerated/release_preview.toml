@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-release-preview"
+description = "Enables the release_preview command without any pre-configured scope."
+commands.allow = ["release_preview"]
+
+[[permission]]
+identifier = "deny-release-preview"
+description = "Denies the release_preview command without any pre-configured scope."
+commands.deny = ["release_preview"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-shell-retry"
+description = "Enables the shell_retry command without any pre-configured scope."
+commands.allow = ["shell_retry"]
+
+[[permission]]
+identifier = "deny-shell-retry"
+description = "Denies the shell_retry command without any pre-configured scope."
+commands.deny = ["shell_retry"]

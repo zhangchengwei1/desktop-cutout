@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "copy": {
+      "title": "Preparing local models",
+      "checking": "Checking local models…",
+      "downloading": "Downloading",
+      "verifying": "Verifying",
+      "ready": "Ready",
+      "failed": "Model setup could not finish",
+      "retry": "Retry download",
+      "resources": "Open models & resources",
+      "detail": "Models stay on this device and are verified before use.",
+      "progress": "Model download progress"
+    }
+  }
+}

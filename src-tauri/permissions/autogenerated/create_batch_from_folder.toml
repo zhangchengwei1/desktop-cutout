@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-create-batch-from-folder"
+description = "Enables the create_batch_from_folder command without any pre-configured scope."
+commands.allow = ["create_batch_from_folder"]
+
+[[permission]]
+identifier = "deny-create-batch-from-folder"
+description = "Denies the create_batch_from_folder command without any pre-configured scope."
+commands.deny = ["create_batch_from_folder"]

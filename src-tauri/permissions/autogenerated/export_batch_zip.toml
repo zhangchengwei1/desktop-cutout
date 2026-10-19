@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-export-batch-zip"
+description = "Enables the export_batch_zip command without any pre-configured scope."
+commands.allow = ["export_batch_zip"]
+
+[[permission]]
+identifier = "deny-export-batch-zip"
+description = "Denies the export_batch_zip command without any pre-configured scope."
+commands.deny = ["export_batch_zip"]

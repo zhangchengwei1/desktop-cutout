@@ -1,0 +1,13 @@
+{
+  "ui": {
+    "copy": {
+      "runtime": "The image processing component could not load. Quit the app, replace it using the latest installer, then reopen and retry failed images. Saved images are kept; downloading models again will not fix this issue.",
+      "output": "The output folder is unavailable or not writable. Choose a writable folder before starting the batch.",
+      "details": "Technical details",
+      "folder": "The image folder could not be read. Choose an accessible local folder and try again.",
+      "emptyFolder": "No supported images were found. Choose a folder containing a supported image format.",
+      "folderLimit": "The folder is too large. No jobs were added. Import up to 10,000 images and scan up to 100,000 entries at a time by choosing smaller subfolders.",
+      "sourceChanged": "The source image has changed. Start a new right-click operation or re-import it in ClearFrame. Previously saved results are kept."
+    }
+  }
+}

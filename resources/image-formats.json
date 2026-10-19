@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    "png",
+    "jpg",
+    "jpeg",
+    "jpe",
+    "jfif",
+    "webp",
+    "gif",
+    "bmp",
+    "tif",
+    "tiff",
+    "ico",
+    "tga",
+    "dds",
+    "pnm",
+    "pbm",
+    "pgm",
+    "ppm",
+    "pam",
+    "qoi",
+    "ff"
+  ]
+}

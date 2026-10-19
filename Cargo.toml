@@ -1,0 +1,25 @@
+[workspace]
+members = ["crates/cutout-core", "crates/cutout-cli", "src-tauri"]
+default-members = ["crates/cutout-core", "crates/cutout-cli"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+cutout-core = { path = "crates/cutout-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Tauri dev builds run native image processing and model verification too.
+# Keep debug symbols while optimizing these CPU hot paths.
+[profile.dev.package.cutout-core]
+opt-level = 3
+
+[profile.dev.package.image]
+opt-level = 3
+
+[profile.dev.package.sha2]
+opt-level = 3

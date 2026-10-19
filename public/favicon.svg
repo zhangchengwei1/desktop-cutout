@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>ClearFrame Desktop</title>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="#f4f1e8" stroke="#111411" stroke-width="12"/>
+  <g fill="none" stroke="#111411" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M104 174v-70h70M338 104h70v70M408 338v70h-70M174 408h-70v-70"/>
+  </g>
+  <path
+    d="M256 142c-52 0-85 41-85 87 0 34 17 61 40 76-40 11-65 36-71 73h232c-6-37-31-62-71-73 23-15 40-42 40-76 0-46-33-87-85-87Z"
+    fill="#111411"
+    stroke="#b8f238"
+    stroke-width="14"
+    stroke-linejoin="round"
+  />
+</svg>

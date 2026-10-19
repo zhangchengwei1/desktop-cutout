@@ -1,0 +1,30 @@
+{
+  "ui": {
+    "title": "Background removal",
+    "background": "Processing locally in the background.",
+    "saved": "Saved images remain in their result folder.",
+    "phases": {
+      "queued": "Waiting to process",
+      "preparing": "Preparing images",
+      "processing": "Removing backgrounds",
+      "done": "Images are ready",
+      "failed": "Some images need attention",
+      "cancelled": "Processing cancelled",
+      "cancelling": "Cancelling remaining images"
+    },
+    "operation": "Operation",
+    "progress": "Image processing progress",
+    "counts": "{{succeeded}} saved · {{failed}} failed · {{cancelled}} cancelled / {{count}} images",
+    "preparing": "Checking selected images and the cached model…",
+    "failure": "Saved results are kept. Retry failed images, or open ClearFrame to prepare the model or review details.",
+    "empty": "No right-click operations yet.",
+    "loading": "Loading progress…",
+    "openFolder": "Open result folder",
+    "details": "Technical details",
+    "retry": "Retry failed images",
+    "cancel": "Cancel remaining",
+    "workbench": "Open ClearFrame",
+    "closeHint": "Closing this window keeps background processing running.",
+    "sourceChanged": "The source image has changed. Start a new right-click operation or re-import it in ClearFrame. Previously saved results are kept."
+  }
+}

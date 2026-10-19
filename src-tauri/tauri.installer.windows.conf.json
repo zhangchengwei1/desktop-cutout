@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "bundle": {
+    "resources": { "../resources/runtime/*.dll": ".", "../resources/context-menu/clearframe-shell.dll": "." },
+    "windows": {
+      "allowDowngrades": false,
+      "webviewInstallMode": { "type": "offlineInstaller", "silent": true },
+      "nsis": {
+        "installMode": "currentUser",
+        "installerHooks": "installer/context/windows-hooks.nsh",
+        "languages": ["SimpChinese", "English", "Japanese"],
+        "displayLanguageSelector": true,
+        "startMenuFolder": "ClearFrame Desktop",
+        "installerIcon": "icons/icon.ico",
+        "compression": "lzma"
+      }
+    }
+  }
+}

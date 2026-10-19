@@ -1,0 +1,48 @@
+{
+  "ui": {
+    "copy": {
+      "title": "設定",
+      "intro": "設定はこの端末に保存され、ウィンドウ間で同期されます。",
+      "language": "表示言語",
+      "languageHelp": "切り替えるとすべてのウィンドウに反映します。",
+      "system": "システムに合わせる",
+      "naming": "書き出しファイル名",
+      "namingHelp": "保存ダイアログの候補名だけを変更します。",
+      "recovery": "再起動時に作業を復元",
+      "recoveryHelp": "初期設定はオフです。画像・マスク・確定した編集を端末内に保存し、オフにすると複製を削除します。",
+      "usage": "セッションファイルのサイズ",
+      "clear": "セッションの複製を削除",
+      "back": "ワークスペースに戻る",
+      "unavailable": "設定の保存はデスクトップアプリでのみ可能です。",
+      "loading": "設定を読み込み中…",
+      "shellCompletion": "右クリック処理の表示",
+      "shellCompletionHelp": "完了後の結果表示を選択します。エラー時は常に復旧操作を表示します。",
+      "shellProgress": "小さな進捗ウィンドウ（既定）",
+      "shellOpenFolder": "完了時に結果フォルダーを開く",
+      "shellSilent": "保存のみ、エラー時に表示",
+      "shellMenus": "右クリック操作",
+      "shellMenusHelp": "確認後に有効になります。macOS はここで Finder 操作を追加・削除し、Windows はインストーラーで管理します。",
+      "shellManage": "操作を管理",
+      "shellInstallerHelp": "Windows インストーラーを再実行し、右クリック操作のチェックを確認してください。チェックを外すと無効になります。"
+    },
+    "extra": {
+      "general": "一般",
+      "storage": "セッションと保存",
+      "privacy": "処理とプライバシー",
+      "retry": "設定を再読み込み",
+      "models": "モデルとリソースを管理",
+      "privacyBody": "画像・ファイル名・パス・マスク・編集内容は端末内に保存。通信は明示されたモデルのダウンロードと、自分で開くライセンスリンクに限ります。",
+      "quality": "処理の品質",
+      "qualityBody": "固定の IS-Net、MobileSAM、ViTMatte FP32 を使用。CPU への切り替えでも重みと入力サイズを維持します。",
+      "format": "書き出し形式",
+      "formatHelp": "元画像サイズの透過 PNG。推論はモデルの入力サイズで行います。",
+      "copies": "セッションの複製",
+      "clearHelp": "アプリ専用フォルダーのセッション複製のみを削除。保存した PNG やモデルは保持します。",
+      "saving": "保存中…",
+      "preview": "ブラウザプレビューの設定は読み取り専用です。",
+      "confirmClear": "複製の削除を確認",
+      "cancel": "キャンセル",
+      "shortcuts": "ショートカット"
+    }
+  }
+}
