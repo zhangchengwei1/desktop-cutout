@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "description": "100 native IS-Net inferences over seven frozen generated fixtures; throughput and repeatability probe, not 100 independent photographs",
+  "cases": [
+    { "path": "images/hard-edge-opaque.png", "reference": "reference/model-isnet/hard-edge-opaque.png.model.png", "repeat": 15 },
+    { "path": "images/wide-alpha.png", "reference": "reference/model-isnet/wide-alpha.png.model.png", "repeat": 15 },
+    { "path": "images/portrait-strands.png", "reference": "reference/model-isnet/portrait-strands.png.model.png", "repeat": 14 },
+    { "path": "images/low-contrast.png", "reference": "reference/model-isnet/low-contrast.png.model.png", "repeat": 14 },
+    { "path": "images/gamma-tagged.png", "reference": "reference/model-isnet/gamma-tagged.png.model.png", "repeat": 14 },
+    { "path": "images/icc-tagged.png", "reference": "reference/model-isnet/icc-tagged.png.model.png", "repeat": 14 },
+    { "path": "images/exif-orient6.jpg", "reference": "reference/model-isnet/exif-orient6.jpg.model.png", "repeat": 14 }
+  ]
+}

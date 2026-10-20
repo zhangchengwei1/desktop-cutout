@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+project_dir="$(cd "$(dirname "$0")/../.." && pwd)"
+cli="${PWCLI_BIN:-playwright-cli}"
+if [[ "$cli" == *.sh ]]; then cli_command=(bash "$cli"); else cli_command=("$cli"); fi
+port="${BASELINE_PORT:-8766}"
+cd "$project_dir"
+mkdir -p test-output/s02-canvas
+
+python3 -m http.server "$port" --bind 127.0.0.1 >/dev/null 2>&1 &
+server_pid=$!
+trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+sleep 1
+
+for group in 'a 0 2' 'b 2 4' 'c 4 6' 'd 6 7'; do
+  read -r label start end <<< "$group"
+  session="clearframe-s02-$label"
+  "${cli_command[@]}" --session "$session" open "http://127.0.0.1:$port/tests/fixtures/?start=$start&end=$end" >/dev/null
+  "${cli_command[@]}" --raw --session "$session" run-code --filename tests/fixtures/capture-s02-intermediates.js \
+    > "test-output/s02-canvas/browser-part-$label.json"
+  "${cli_command[@]}" --session "$session" close >/dev/null
+done

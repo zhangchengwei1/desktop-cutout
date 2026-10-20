@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "kind": "ORT Web WASM CPU on frozen Chromium Canvas RGB",
+  "browserSourceRevision": "3c8a1d00ee01b355f65d7c584eb8c4d2101c32eb",
+  "canvasManifestSha256": "5a8aa2d8ac2603c093d266612e2c2c9113ee0a9aed7fd2ad7cf14ba273b2d1bb",
+  "modelSnapshotSha256": "ef0c594cdc34451c9fd742821603cbf2cd62fbdd5adcb3c5acc1597b52cc4c9b",
+  "ortWebVersion": "1.29.0",
+  "backend": "wasm",
+  "samples": [
+    {
+      "input": "wide-alpha.png",
+      "width": 160,
+      "height": 48,
+      "fittedWidth": 1024,
+      "fittedHeight": 307,
+      "points": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "label": 1
+        }
+      ],
+      "canvasTensorSha256": "cc117979a007bc2276840be81081f3913d79fac1cabb992eb5746d2edcbe1e05",
+      "samInputSha256": "75f8639672a44923310906c6011f28bd1e7712503bebf0b3874dc885458c1894",
+      "selectedCandidate": 2,
+      "scores": [
+        0.8745645880699158,
+        0.989001989364624,
+        1.0009214878082275,
+        0.8685379028320312
+      ],
+      "maskSha256": "9a3e7496e9eee1034b0d5946b9b6ca75c9b59bcecf4ff896a1f881da57336289"
+    },
+    {
+      "input": "portrait-strands.png",
+      "width": 48,
+      "height": 160,
+      "fittedWidth": 307,
+      "fittedHeight": 1024,
+      "points": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "label": 1
+        },
+        {
+          "x": 0.05,
+          "y": 0.05,
+          "label": 0
+        }
+      ],
+      "canvasTensorSha256": "b98764836142c1a00efe37bc92f4463542eecc002ee6c5d033af91981f63242f",
+      "samInputSha256": "cf7ff771fb7e63a5f163433b83c95bbbb28e97daf2b3b40b98cc933607c2ab68",
+      "selectedCandidate": 3,
+      "scores": [
+        0.7874792218208313,
+        0.9090687036514282,
+        0.9115780591964722,
+        0.9274017810821533
+      ],
+      "maskSha256": "0594580a0cee3dde41b55b1275f773a975e5265f7b2a3a5485430d1ee1a44156"
+    }
+  ]
+}
