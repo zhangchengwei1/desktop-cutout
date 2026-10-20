@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "kind": "browser-canvas-synthetic-mask; no ONNX model was run",
+  "sourceRevision": "3c8a1d00ee01b355f65d7c584eb8c4d2101c32eb",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "samples": [
+    {
+      "input": "hard-edge-opaque.png",
+      "width": 96,
+      "height": 64,
+      "fittedWidth": 1024,
+      "fittedHeight": 683,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "9b3a6d4481573c51950d629dd5b08f1264badb3baab7b839d742e16374c57e69",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "e2e4aabd151609a9201fb56a46dc621914d52253d39b7957769795c3e1d81f86",
+      "outputRgbaSha256": "3233c31f91b3a8870cd2ebda33e9ebff4cd5092a07cbbc8bdc9ba31cdb4d2eac",
+      "outputAlphaAtCorners": [
+        0,
+        190,
+        42,
+        232
+      ],
+      "exportedPngRgbaSha256": "fdc502cd15abaa9c285cc16e99ff71f6752d1c4aeaa53b703a909a2bf23bfb1c"
+    },
+    {
+      "input": "wide-alpha.png",
+      "width": 160,
+      "height": 48,
+      "fittedWidth": 1024,
+      "fittedHeight": 307,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "cc117979a007bc2276840be81081f3913d79fac1cabb992eb5746d2edcbe1e05",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "490870583dd97041ee82fc5e637679a6f53738c927d29c762f0c32e781d41e3a",
+      "outputRgbaSha256": "3f40209f40cbb90c41bb9631d7ad1059512cb96943201f86f33c2a7f19f131ec",
+      "outputAlphaAtCorners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exportedPngRgbaSha256": "7cc4fcc994e83098d4409f394a718a8493b59e68c47c5c5dff18d6199ff0c9a3"
+    },
+    {
+      "input": "portrait-strands.png",
+      "width": 48,
+      "height": 160,
+      "fittedWidth": 307,
+      "fittedHeight": 1024,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "b98764836142c1a00efe37bc92f4463542eecc002ee6c5d033af91981f63242f",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "b85b4f55006f383484a0da0ee309fac5178417ddc889ef70ead52d142d675c29",
+      "outputRgbaSha256": "9d85fb8f219ea7c296df0ada2b263d77d637f8244f4eba047194592198e86f9e",
+      "outputAlphaAtCorners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exportedPngRgbaSha256": "7dbd5fd694305be1fb19ef77042d1a369405ac776601420c58f89e1b649942c4"
+    },
+    {
+      "input": "low-contrast.png",
+      "width": 96,
+      "height": 96,
+      "fittedWidth": 1024,
+      "fittedHeight": 1024,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "f81e837f96bb2547441156d0fd7fe841faad0bc8ee7e66778dbb710148f3c349",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "2f555688293c80f3bdebca11ced8f719d5c70c200a3fb9327c9a22956a2e4092",
+      "outputRgbaSha256": "d63841cd7fedb17374bc37111c629e4a2298e880b9e8a7c6620f4041c9713f4c",
+      "outputAlphaAtCorners": [
+        0,
+        190,
+        63,
+        253
+      ],
+      "exportedPngRgbaSha256": "b4f61f908ac95ffc4293c11e5654d0faefff9bf23e0f1cfe8c0dd7898fd0f3bf"
+    },
+    {
+      "input": "gamma-tagged.png",
+      "width": 96,
+      "height": 64,
+      "fittedWidth": 1024,
+      "fittedHeight": 683,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "b42e9391a582c5acead6b5180c5678910a6a5b70427b6d1873cbdb3f38bdae37",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "e2e4aabd151609a9201fb56a46dc621914d52253d39b7957769795c3e1d81f86",
+      "outputRgbaSha256": "5b00d41d02e60c78345ba85636028589c546abe2f2d9ad6814771827641c4f79",
+      "outputAlphaAtCorners": [
+        0,
+        190,
+        42,
+        232
+      ],
+      "exportedPngRgbaSha256": "30bfdb398934882cd1cf2f2b81df82eb430f8529725fdd10bff104599337f624"
+    },
+    {
+      "input": "icc-tagged.png",
+      "width": 96,
+      "height": 64,
+      "fittedWidth": 1024,
+      "fittedHeight": 683,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "c4c7f36ff1ac711f1257de6624826625188eb8cef1ae770112b976de9b831419",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "e2e4aabd151609a9201fb56a46dc621914d52253d39b7957769795c3e1d81f86",
+      "outputRgbaSha256": "3ed92845d8b8f1a228f865f2aa9949c47e7c01725bc4d71b6ffdec71ba715110",
+      "outputAlphaAtCorners": [
+        0,
+        190,
+        42,
+        232
+      ],
+      "exportedPngRgbaSha256": "5c271a6bcd16d5062b95083f4058e449996f7277f58973d3b6ddf6799fbbe9b4"
+    },
+    {
+      "input": "exif-orient6.jpg",
+      "width": 64,
+      "height": 96,
+      "fittedWidth": 683,
+      "fittedHeight": 1024,
+      "tensorShape": [
+        1,
+        3,
+        1024,
+        1024
+      ],
+      "tensorSha256": "87f3d9021341565cafbda845d6b46c0b4b9a7466fced10e66ceae0653b09d5d4",
+      "restoredMaskShape": [
+        1024,
+        1024
+      ],
+      "restoredMaskSha256": "827319ac49ca360aa7065a496ccfc126e200c6614293e01683f52b35f12a344a",
+      "outputRgbaSha256": "708683cfd2a9275aec1587f6907f45e030c2851e393f4c2e5a414493b83004c6",
+      "outputAlphaAtCorners": [
+        0,
+        126,
+        63,
+        189
+      ],
+      "exportedPngRgbaSha256": "8898051d80839fe9951548e1b5043141b084418009574da3f908a78dd0a04447"
+    }
+  ]
+}

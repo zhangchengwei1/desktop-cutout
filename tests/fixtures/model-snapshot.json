@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "3c8a1d00ee01b355f65d7c584eb8c4d2101c32eb",
+  "sourceFile": "browser-cutout/public/models/model-manifest.json",
+  "sourceSha256": "0aab35d9e4f8ba9bd81ce4b5bbf8cf0fb1a41a18191592ef64a3cb4df98c6d76",
+  "sourceRouteFile": "browser-cutout/app/api/models/[modelId]/route.ts",
+  "sourceRouteSha256": "5fa3ed553ca8b4142d4360faf232fca6c306cc6ca7ece3853fb69be7a464f2cb",
+  "models": [
+    {
+      "id": "isnet-auto-high",
+      "revision": "9783722d9f964c0286a411e7e8e6fede947d5a53",
+      "bytes": 178648008,
+      "sha256": "60920e99c45464f2ba57bee2ad08c919a52bbf852739e96947fbb4358c0d964a",
+      "downloadUrl": "https://huggingface.co/BritishWerewolf/IS-Net/resolve/9783722d9f964c0286a411e7e8e6fede947d5a53/onnx/model.onnx",
+      "input": "input_image [1,3,1024,1024] float32",
+      "output": "output_image [1,1,1024,1024] float32",
+      "preprocessing": {
+        "mean": [0.485, 0.456, 0.406],
+        "std": [1, 1, 1],
+        "fit": "contain"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "mobilesam-image-encoder",
+      "revision": "0d3b403339b4674a82493d5e97964dd78089ddc8",
+      "bytes": 28157093,
+      "sha256": "580f5fb648ea1062c0aabc26217aed56921985f03f0cbbd852bba81d760cc749",
+      "downloadUrl": "https://huggingface.co/Acly/MobileSAM/resolve/0d3b403339b4674a82493d5e97964dd78089ddc8/mobile_sam_image_encoder.onnx",
+      "license": "MIT (ONNX export); Apache-2.0 (MobileSAM/SAM)"
+    },
+    {
+      "id": "mobilesam-mask-decoder",
+      "revision": "0d3b403339b4674a82493d5e97964dd78089ddc8",
+      "bytes": 16496559,
+      "sha256": "8976b90a87ba50a6a72217a5ff994f7d25ce16f2229fcc1ed259e1294c622ffe",
+      "downloadUrl": "https://huggingface.co/Acly/MobileSAM/resolve/0d3b403339b4674a82493d5e97964dd78089ddc8/sam_mask_decoder_multi.onnx",
+      "license": "MIT (ONNX export); Apache-2.0 (MobileSAM/SAM)"
+    },
+    {
+      "id": "vitmatte-high",
+      "revision": "358d428c452e5e0cd52955011a8b51944731d28e",
+      "bytes": 103885865,
+      "sha256": "a1cf48234c369faa3ea1711981d961fe1ec71f51e593f9d6553aa5a0e7d557e3",
+      "downloadUrl": "https://huggingface.co/Xenova/vitmatte-small-distinctions-646/resolve/358d428c452e5e0cd52955011a8b51944731d28e/onnx/model.onnx",
+      "license": "Apache-2.0"
+    }
+  ],
+  "referenceInferenceStatus": "captured: verified IS-Net weight, Chromium Canvas input and render, ORT Web 1.29.0 WASM CPU output; native macOS arm64 CPU diagnostic in S03"
+}

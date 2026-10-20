@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "Chromium Canvas render of ORT Web/WASM IS-Net masks",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "samples": [
+    {
+      "input": "hard-edge-opaque.png",
+      "width": 96,
+      "height": 64,
+      "rgbaSha256": "f1d15310da8838a2fba81a4971e34022c6e6d294daec026df2f19a55f3ad82d7",
+      "exportedPngRgbaSha256": "980e155cacd95ad3c982d4f5fdc68660dec6436c0877ad3abc5983996bcf8d54"
+    },
+    {
+      "input": "wide-alpha.png",
+      "width": 160,
+      "height": 48,
+      "rgbaSha256": "17035f8da91982d6171a3da158518701da438ec72d83e04b8e170c7ca3a249a2",
+      "exportedPngRgbaSha256": "11d38cb05f0452be892f8edcfe9431755604e0316f92d7855b0db7fa1b99b83a"
+    },
+    {
+      "input": "portrait-strands.png",
+      "width": 48,
+      "height": 160,
+      "rgbaSha256": "ae5d7dff4493123476e966b2622ec02d507602b7339d7be71996a99dff6b2613",
+      "exportedPngRgbaSha256": "cc1b51e89b8ab592bca1a5d328fd74818c1e8441d2c37ffd0eec178cd3a3c4bb"
+    },
+    {
+      "input": "low-contrast.png",
+      "width": 96,
+      "height": 96,
+      "rgbaSha256": "4708238bd9a1bedec91828d0442144b23e08d1104fa199d6ab05361f9965c19e",
+      "exportedPngRgbaSha256": "bbbe561469d4b0941dfc86f398c535909d9667e1701d509099802bf1edb0eda3"
+    },
+    {
+      "input": "gamma-tagged.png",
+      "width": 96,
+      "height": 64,
+      "rgbaSha256": "198db84bf06b533164b0be2fe463eaeeac6b3d1a51391e9515cfab1e2e861df6",
+      "exportedPngRgbaSha256": "0c548eecd953610238c22f1fdc936fb7f851fb659f0f2bd964360db2d8a75de4"
+    },
+    {
+      "input": "icc-tagged.png",
+      "width": 96,
+      "height": 64,
+      "rgbaSha256": "d1826791220138cc22c834cc07ddb34af33bedcced6d70aadfa4e86f8f3e11e6",
+      "exportedPngRgbaSha256": "90da01012438b87f8469c3a603cc093c9ccf1d8f3f027d60c1a3e9243982c32e"
+    },
+    {
+      "input": "exif-orient6.jpg",
+      "width": 64,
+      "height": 96,
+      "rgbaSha256": "1ad1722de7ce9f7ee922ec9ba3caef1c3b28f935bbffa4f80bd3a1cabb8dd68a",
+      "exportedPngRgbaSha256": "a530cae2cbe3d1fda1c16c14a20278a49ceef92883984eca4e51288bc1038432"
+    }
+  ]
+}

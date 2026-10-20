@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "ORT Web WASM CPU on Chromium Canvas S04 inputs",
+  "browserSourceRevision": "b49702c7aeb84d69cf2ef4612bfd7dfe34b3b070",
+  "modelSnapshotSha256": "ef0c594cdc34451c9fd742821603cbf2cd62fbdd5adcb3c5acc1597b52cc4c9b",
+  "ortWebVersion": "1.29.0",
+  "backend": "wasm",
+  "sample": "hard-edge-opaque.png",
+  "points": "sam-points.json",
+  "samInputSha256": "a4335edbee5e397b4b1af7d9989b78704b2a68e87c220e4e2c50924927db5bbb",
+  "embeddingSha256": "a16669ccb92ca587d3ff183bb41838aa4677046d520c0e88fd859750fa1f3fd4",
+  "samGroups": [
+    {
+      "selectedCandidate": 1,
+      "scores": [
+        0.9884850382804871,
+        1.0222572088241577,
+        1.014003872871399,
+        0.7218762636184692
+      ],
+      "lowResMasksSha256": "dde2b5fb5d1f95748a79bbf7c05fe962b5ae333d5b74030dd62ff5cad533598d"
+    },
+    {
+      "selectedCandidate": 3,
+      "scores": [
+        0.8773336410522461,
+        0.4204450845718384,
+        0.9876536130905151,
+        0.6790380477905273
+      ],
+      "lowResMasksSha256": "bb3fe03477a594ffa6302594bd5445731857a797eb08e9f29f8a10211a905f14"
+    }
+  ],
+  "samMaskSha256": "b35a15dae9dcd3349469ee1c0e1f2e148bd80c8507b8092633be5753b64d8a4d",
+  "matteInputSha256": "570a580b7b9214910a068ef038190c190701db681bade85f6e399365f1654c31",
+  "trimapSha256": "ddc819c55a0bc0a1f0f7f706e1669d0b7c9ba5fb7ec1c72f73fb8a654b2af7ac",
+  "derivedMatteSha256": "9718f92e991afc4351be19c69bcace88537dd87ab91526407606ba7f1a343eb2",
+  "matteOutputSha256": "bf5ac9a5ad5c02bb56b42cfa301b51f8cc9472b67d744589eea012a323aa56ee",
+  "matteMaskSha256": "e9fcbad17bf822ae21b5a7c4517e207741422ea0052eab0c41704a62160f7294"
+}

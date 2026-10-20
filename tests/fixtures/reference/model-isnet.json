@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "ORT Web WASM CPU inference on Chromium Canvas input tensors",
+  "browserSourceRevision": "3c8a1d00ee01b355f65d7c584eb8c4d2101c32eb",
+  "modelId": "isnet-auto-high",
+  "modelRevision": "9783722d9f964c0286a411e7e8e6fede947d5a53",
+  "modelSha256": "60920e99c45464f2ba57bee2ad08c919a52bbf852739e96947fbb4358c0d964a",
+  "ortWebVersion": "1.29.0",
+  "backend": "wasm",
+  "samples": [
+    {
+      "input": "hard-edge-opaque.png",
+      "inputTensorSha256": "9b3a6d4481573c51950d629dd5b08f1264badb3baab7b839d742e16374c57e69",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "0ce117a7469febfaffbe55fa32c5b4556af90bd8386d58d86172bc99fd63ccd9",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.9998025894165039,
+      "normalizedMaskSha256": "92ade00d7c6cea10ec7fadb2239f7860236db19e2f2a8c7bd314909f13fbdf7c",
+      "restoredMaskSha256": "3e1c1f01766c025af20cdb3a428c939f5b1a6b97a57b39399118527f7b346f86"
+    },
+    {
+      "input": "wide-alpha.png",
+      "inputTensorSha256": "cc117979a007bc2276840be81081f3913d79fac1cabb992eb5746d2edcbe1e05",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "840e65d48817922b1157dd6008335790378766f5c04ecde295d5aae8170f4f32",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.9999978542327881,
+      "normalizedMaskSha256": "ac66b08fb4e86244c73ebf2f254511554bebd879851a5171a8fa735bc3586e01",
+      "restoredMaskSha256": "f5c1726586fcdf39bb6e628138699ca5e74c58fbe2b74dde712006aea9512286"
+    },
+    {
+      "input": "portrait-strands.png",
+      "inputTensorSha256": "b98764836142c1a00efe37bc92f4463542eecc002ee6c5d033af91981f63242f",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "4c60eb0c93106c0870bb7679185b843db491f5386164f0cfa2a892c724161b20",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.9999940991401672,
+      "normalizedMaskSha256": "f86f04f1ed037075400bc66b1998148fe53d9e5f8282e92b72a59266541aae7f",
+      "restoredMaskSha256": "cc8d914b6ab9ab24921f9884c1647ba8fd0052ad8abe6a1dda90616a71e1374d"
+    },
+    {
+      "input": "low-contrast.png",
+      "inputTensorSha256": "f81e837f96bb2547441156d0fd7fe841faad0bc8ee7e66778dbb710148f3c349",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "8ca02342a13dfdb5539b9e4a324046458f775588262772e50f61c2d16c01e66d",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.011656314134597778,
+      "normalizedMaskSha256": "313b75f1b03dcd13e90aa69c442938117c92b5e59adfe6bcad8df71f7ce562a3",
+      "restoredMaskSha256": "313b75f1b03dcd13e90aa69c442938117c92b5e59adfe6bcad8df71f7ce562a3"
+    },
+    {
+      "input": "gamma-tagged.png",
+      "inputTensorSha256": "b42e9391a582c5acead6b5180c5678910a6a5b70427b6d1873cbdb3f38bdae37",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "5a2654b3e93ace39779d6c04768251a4a8cc4bbea53262d796aaacaa55971f83",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.9997449517250061,
+      "normalizedMaskSha256": "9477d78ab2e510cdac2a2120c9d4b875c0775e031e5791fd1f8ed0b32eba6388",
+      "restoredMaskSha256": "ead555cf0c0fd4725f63a22bb974909685274df81a69975605dac3124e69c00e"
+    },
+    {
+      "input": "icc-tagged.png",
+      "inputTensorSha256": "c4c7f36ff1ac711f1257de6624826625188eb8cef1ae770112b976de9b831419",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "637d107f9e5db52dada110659e361b44f2e9c324d5e05cd49037b573f75687b3",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.9997850656509399,
+      "normalizedMaskSha256": "a5be3aff8830cf3b39d3f3f7f2353fb1d24846fe5da3b23d0e0ac1d257825a7e",
+      "restoredMaskSha256": "e17df8f2531e9717eb13d38c3d16fa86cf38972007e38f84978066f4a203f6dc"
+    },
+    {
+      "input": "exif-orient6.jpg",
+      "inputTensorSha256": "87f3d9021341565cafbda845d6b46c0b4b9a7466fced10e66ceae0653b09d5d4",
+      "modelOutputShape": [
+        1,
+        1,
+        1024,
+        1024
+      ],
+      "modelOutputSha256": "c00b048546d2356c76f59a7b211b3bc45dc3c2ab0d463e541fb247b1ba89c8d1",
+      "modelOutputMinimum": 0,
+      "modelOutputMaximum": 0.9999393224716187,
+      "normalizedMaskSha256": "f4f82d73dfb538d7e56565e3981303cccce1518d1b60a6d3fdc293d09f3e9dba",
+      "restoredMaskSha256": "dcec46b71a1635ba5c070617daf5dc033ec448e7b0f9b2019f2e919b30c32757"
+    }
+  ]
+}

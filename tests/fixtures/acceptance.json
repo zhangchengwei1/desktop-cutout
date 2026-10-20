@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-09-24",
+  "reference": "reference/browser-canvas.json + reference/model-isnet.json + reference/model-isnet/browser-render.json",
+  "rules": {
+    "dimensionsAndExifOrientation": "exact",
+    "containFittedSizeAndPaddingCoordinates": "exact",
+    "normalizedPadding": "exact zero float32",
+    "syntheticMaskNormalizationAndContainRemap": "exact u8",
+    "inputTensorNonPadding": {
+      "meanAbsoluteErrorMax": 0.003922,
+      "p99AbsoluteErrorMax": 0.011765,
+      "absoluteErrorMax": 0.039216
+    },
+    "isnetCpuRawOutput": {
+      "p99AbsoluteErrorMax": 0.0001,
+      "absoluteErrorMax": 0.001
+    },
+    "isnetNormalizedMask": {
+      "p99U8DifferenceMax": 1,
+      "u8DifferenceMax": 4
+    },
+    "exportedPng": {
+      "widthHeight": "exact",
+      "alphaP99U8DifferenceMax": 1,
+      "alphaU8DifferenceMax": 2,
+      "opaqueRgbP99U8DifferenceMax": 1,
+      "opaqueRgbU8DifferenceMax": 3,
+      "translucentPremultipliedRgbU8DifferenceMax": 2
+    },
+    "requiredVisualReview": ["portrait-strands.png", "wide-alpha.png", "hard-edge-opaque.png"],
+    "failurePolicy": "A failed gate requires diagnosis and a recorded quality decision; thresholds are not automatically widened."
+  }
+}

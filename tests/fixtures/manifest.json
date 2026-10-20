@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "generator": "generate.py",
+  "license": "CC0-1.0; generated for this repository",
+  "samples": [
+    {
+      "id": "hard-edge-opaque",
+      "file": "images/hard-edge-opaque.png",
+      "width": 96,
+      "height": 64,
+      "format": "RGB",
+      "purpose": "硬边、背景纹理与 JPEG EXIF 的原图",
+      "sha256": "60ebb3c9ec14ec0f5f9bdbba77412a73d4e188d31bc1dae08020be48234347f2"
+    },
+    {
+      "id": "wide-alpha",
+      "file": "images/wide-alpha.png",
+      "width": 160,
+      "height": 48,
+      "format": "RGBA",
+      "purpose": "超宽、半透明边缘和透明像素隐藏 RGB",
+      "sha256": "2d538ad53880d61827c7145b853e4710fe14620539ea73cacc99713b66310b71"
+    },
+    {
+      "id": "portrait-strands",
+      "file": "images/portrait-strands.png",
+      "width": 48,
+      "height": 160,
+      "format": "RGBA",
+      "purpose": "超高、细线和半透明 Alpha",
+      "sha256": "b26582f2f23c9be978845efec8ee7be5d3b68caa2f81f10b3968650fd5414ba1"
+    },
+    {
+      "id": "low-contrast",
+      "file": "images/low-contrast.png",
+      "width": 96,
+      "height": 96,
+      "format": "RGB",
+      "purpose": "低对比度主体",
+      "sha256": "14eb130e910ae18d8a380576cd08d660b0d0fd0d228174631c30fc7346070e2b"
+    },
+    {
+      "id": "mask-edges",
+      "file": "images/mask-edges.png",
+      "width": 96,
+      "height": 64,
+      "format": "L",
+      "purpose": "全尺寸灰度蒙版和 Alpha 合成",
+      "sha256": "9129927ecfd88fb88d6a85f6e2db24519c7e353a9b25af028f56f6e79567775e"
+    },
+    {
+      "id": "gamma-tagged",
+      "file": "images/gamma-tagged.png",
+      "width": 96,
+      "height": 64,
+      "format": "RGB",
+      "purpose": "带非标准 gAMA 色彩元数据",
+      "sha256": "c83321a584fb28d564d1585e858b1da2483e9fcbb50143331f21908d97adb749"
+    },
+    {
+      "id": "icc-tagged",
+      "file": "images/icc-tagged.png",
+      "width": 96,
+      "height": 64,
+      "format": "RGB",
+      "purpose": "带自生成 RGB ICC 配置文件",
+      "sha256": "7198b2bb05bf39a020b2dac446c68500f7915513a8a3c9d2a92b563b786f2081"
+    },
+    {
+      "id": "exif-orient6",
+      "file": "images/exif-orient6.jpg",
+      "width": 96,
+      "height": 64,
+      "format": "JPEG",
+      "purpose": "非对称图像与 EXIF 方向 6",
+      "sha256": "112c0f89299f4bcab68af7ca95b58acc6cce1c64426e28af03d23ba817ca0733"
+    },
+    {
+      "id": "corrupt-truncated",
+      "file": "images/corrupt-truncated.png",
+      "width": 96,
+      "height": 64,
+      "format": "broken PNG",
+      "purpose": "截断文件错误路径",
+      "sha256": "3f2060da876a0855c01db0d216ffb2d2017a94aa05da5817a77850a4f6af3b35"
+    },
+    {
+      "id": "oversize-header",
+      "file": "images/oversize-header.png",
+      "width": 20001,
+      "height": 1,
+      "format": "RGB",
+      "purpose": "超过当前单边保护值的文件",
+      "sha256": "a6933b06cfa31ec928d044845b1ddc97fca02c0007a9a5995e38c4c3145f9889"
+    }
+  ]
+}

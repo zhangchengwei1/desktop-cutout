@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><title>Simulated IPC — Batch resilience</title></head>
+<body><div id="root"></div><script type="module">
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BatchPanel } from '../../src/components/BatchPanel.tsx';
+import '../../src/styles/base.css';
+const runtimeError = '[runtime_unavailable] failed to load from /Applications/ClearFrame Desktop.app/Contents/Frameworks/libonnxruntime.dylib: dlopen failed; mapping process and mapped file have different Team IDs';
+const batch = { batchId: 1, outputDirectory: '/test-only/results', paused: true, total: 3, queued: 1, running: 0, succeeded: 1, failed: 1, cancelled: 0 };
+const batches = [batch];
+const items = [
+  { itemId: 1, batchId: 1, displayName: 'saved.png', outputName: 'saved-cutout.png', state: 'succeeded', stage: 'finished', error: null },
+  { itemId: 2, batchId: 1, displayName: 'failed.png', outputName: 'failed-cutout.png', state: 'failed', stage: 'finished', error: runtimeError },
+  { itemId: 3, batchId: 1, displayName: 'waiting.png', outputName: 'waiting-cutout.png', state: 'queued', stage: 'queued', error: null },
+];
+let update;
+let retries = 0;
+let folders = 0;
+window.__TAURI_INTERNALS__ = { invoke: async (command, args) => {
+  if (command === 'batch_items') {
+    const filtered = items.filter(item => item.batchId === args.batchId && (args.filter === 'all' || args.filter === 'issues' && ['failed','cancelled','stale'].includes(item.state) || args.filter === 'completed' && item.state === 'succeeded' || args.filter === 'active' && ['queued','running','cancel_requested'].includes(item.state)));
+    return { total: filtered.length, items: filtered };
+  }
+  if (command === 'retry_failed_batch') {
+    retries++;
+    await new Promise(resolve => setTimeout(resolve, 200));
+    items[1].state = 'queued'; items[1].error = null;
+    batch.paused = false; batch.failed = 0; batch.queued = items.filter(item => item.batchId === 1 && item.state === 'queued').length;
+    update();
+    return 1;
+  }
+  if (command === 'plugin:dialog|open') return args.options.directory ? '/test-only/images' : ['/test-only/input.png'];
+  if (command === 'create_batch_from_folder' || command === 'append_batch_folder') {
+    folders++;
+    await new Promise(resolve => setTimeout(resolve, 300));
+    const itemId = items.length + 1;
+    const target = command === 'create_batch_from_folder'
+      ? { ...batch, batchId: batches.length + 1, paused: false, total: 0, succeeded: 0, failed: 0, queued: 0 }
+      : batches.find(entry => entry.batchId === args.batchId);
+    items.push({ itemId, batchId: target.batchId, displayName: 'nested/input.png', outputName: 'input-cutout.png', state: 'queued', stage: 'queued', error: null });
+    target.total++; target.queued++;
+    // Explicitly exercise admission finishing before its workspace notification.
+    setTimeout(() => { if (!batches.includes(target)) batches.push(target); update(); }, 100);
+    return { batchId: target.batchId, added: 1, skipped: 2 };
+  }
+  if (command === 'create_batch') throw '[output_unavailable] Permission denied (test only)';
+  throw new Error('Unexpected simulated command: ' + command);
+} };
+function TestPage() {
+  const [language, setLanguage] = React.useState('zh');
+  const [revision, setRevision] = React.useState(1);
+  update = () => setRevision(value => value + 1);
+  return React.createElement('main', { style: { padding: '24px', maxWidth: '1000px', margin: 'auto' } },
+    React.createElement('p', null, 'Test fixture · simulated IPC only'),
+    React.createElement('label', null, 'Fixture language ', React.createElement('select', { value: language, onChange: event => setLanguage(event.target.value) }, ['zh','en','ja'].map(value => React.createElement('option', { key: value, value }, value)))),
+    React.createElement('p', { 'data-testid': 'retry-count' }, 'Retry requests: ' + retries),
+    React.createElement('p', { 'data-testid': 'folder-count' }, 'Folder requests: ' + folders),
+    React.createElement(React.Suspense, { fallback: React.createElement('p', { role: 'status' }, 'Loading fixture translations…') },
+      React.createElement(BatchPanel, { language, batches: batches.map(entry => ({...entry})), revision, preferences: { value: { batchOutputDirectory: '/test-only/results' } }, modelReady: true, nativeAvailable: true, visible: true, onModels() {}, onReview() {} }))
+  );
+}
+createRoot(document.getElementById('root')).render(React.createElement(TestPage));
+</script></body></html>
